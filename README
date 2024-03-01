@@ -1,0 +1,5 @@
+rust-atoi-rpm
+=============
+
+Contains a spec file to generate the rpm package for upstream atoi crate:
+https://github.com/pacman82/atoi-rs
