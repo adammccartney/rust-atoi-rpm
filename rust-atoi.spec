@@ -13,6 +13,7 @@ License:        MIT
 URL:            https://crates.io/crates/atoi
 Source:         %{crates_source}
 # Manually created patch for downstream crate metadata changes
+# * drop unused, benchmark-only criterion dev-dependency
 Patch:          atoi-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
